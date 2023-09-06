@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="color.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      margin-top: 30px;
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    body {
+      height: 100vh;
+      width: 1440px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="block">
+
+    <div class="result_block">
+      <div class="re_header">
+        <ReHeader>Your Result</ReHeader>
+      </div>
+
+      <div class="curcle_result">
+        <div class="inCurContent">
+          <p class="seven_6">76</p>
+          <p class="result_norm_txt">of 100</p>
+        </div>
+      </div>
+      <div class="re_content">
+        <p class="great">Great</p>
+        <p class="result_norm_txt">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </div>
+
+    <div class="summary_block">
+      <div class="summary_header">
+        <sumHeader>Summary</sumHeader>
+      </div>
+      <div class="curvy reaction" style="margin-top: 20px;">
+        <img class="icon" src="./assets/images/icon-reaction.svg" />
+        <p class="reaction-txt">Reaction</p>
+        <div class="number">
+          <p>80 / 100</p>
+        </div>
+      </div>
+      <div class="curvy memory">
+        <img class="icon" src="./assets/images/icon-memory.svg" />
+        <p class="memory-txt"">Memory</p>
+        <div class=" number">
+        <p>92 / 100</p>
+      </div>
+      </div>
+      <div class="curvy verbal">
+        <img class="icon" src="./assets/images/icon-verbal.svg" />
+        <p class="verbal-txt">Verbal</p>
+        <div class="number">
+          <p>61 / 100</p>
+        </div>
+      </div>
+      <div class="curvy vision">
+        <img class="icon" src="./assets/images/icon-visual.svg" />
+        <p class="vision-txt">Visual</p>
+        <div class="number">
+          <p>72 / 100</p>
+        </div>
+      </div>
+      <button class="button">Continue</button>
+  </div>
+
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Sukrit</a>.
+  </div>
+</body>
+
+</html>
